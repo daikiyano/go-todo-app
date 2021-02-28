@@ -9,3 +9,4 @@
 2021/02/28 22:31:59 main.go:17: test
 2021/02/28 22:31:59 user.go:32: sql: converting argument $1 type: unsupported type func() uuid.UUID, a func
 2021/02/28 22:35:16 main.go:17: test
+2021/02/28 23:09:49 main.go:17: test
