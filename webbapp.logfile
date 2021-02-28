@@ -1,1 +1,11 @@
 2021/02/28 10:26:03 main.go:16: test
+2021/02/28 13:19:25 main.go:16: test
+2021/02/28 13:19:33 base.go:22: sql: unknown driver "sqlite3" (forgotten import?)
+2021/02/28 13:20:27 base.go:22: sql: unknown driver "sqlite3" (forgotten import?)
+2021/02/28 13:28:01 base.go:22: sql: unknown driver "sqlite3" (forgotten import?)
+2021/02/28 13:29:50 main.go:17: test
+2021/02/28 13:49:35 main.go:17: test
+2021/02/28 13:49:35 user.go:32: sql: converting argument $1 type: unsupported type func() uuid.UUID, a func
+2021/02/28 22:31:59 main.go:17: test
+2021/02/28 22:31:59 user.go:32: sql: converting argument $1 type: unsupported type func() uuid.UUID, a func
+2021/02/28 22:35:16 main.go:17: test
