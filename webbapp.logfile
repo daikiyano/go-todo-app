@@ -22,3 +22,8 @@
 2021/03/05 10:44:24 main.go:17: test
 2021/03/05 10:58:13 main.go:11: test
 2021/03/05 10:58:51 main.go:11: test
+2021/03/05 11:14:14 main.go:11: test
+2021/03/05 11:14:20 main.go:11: test
+2021/03/05 11:14:34 main.go:11: test
+2021/03/05 11:14:34 todos.go:77: near "where": syntax error
+2021/03/05 11:15:17 main.go:11: test

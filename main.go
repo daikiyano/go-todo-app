@@ -36,10 +36,14 @@ func main() {
 	// for _, v := range todos {
 	// 	fmt.Println(v)
 	// }
-	user2, _ := models.GetUser(3)
-	todos, _ := user2.GetTodosByUser()
-	for _, v := range todos {
-		fmt.Println(v)
-	}
+	// user2, _ := models.GetUser(3)
+	// todos, _ := user2.GetTodosByUser()
+	// for _, v := range todos {
+	// 	fmt.Println(v)
+	// }
+	t, _ := models.GetTodo(2)
+	t.Content = "Update todo"
+	t.UpdateTodo()
+	fmt.Println(t)
 
 }
