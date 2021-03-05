@@ -36,7 +36,11 @@ func main() {
 
 	// u.DeleteUser()
 	user, _ := models.GetUser(2)
-	user.CreateTodo("First Todo")
+	user.CreateTodo("Second Todo")
 	// fmt.Println(user)
+	todos, _ := models.GetTodos()
+	for _, v := range todos {
+		fmt.Println(v)
+	}
 
 }
